@@ -25,19 +25,39 @@ An interactive Python application that visualizes the process of Analog-to-Digit
 
 ### 1. Clone the Repository
 
+```bash
 git clone https://github.com/yourusername/adc-dac-visualizer.git
 cd adc-dac-visualizer
-2. Create Virtual Environment
+```
+
+### 2. Create Virtual Environment
+
+```bash
 python -m venv venv
-source venv/bin/activate   # On Windows: venv\Scripts\activate
-3. Install Requirements
+# Activate it:
+# On macOS/Linux:
+source venv/bin/activate
+# On Windows:
+venv\Scripts\activate
+```
+
+### 3. Install Requirements
+
+```bash
 pip install -r requirements.txt
-4. Run the Web App
+```
+
+### 4. Run the Web App
+
+```bash
 streamlit run app/app.py
-📁 Project Structure
-kotlin
-Copy
-Edit
+```
+
+---
+
+## 📁 Project Structure
+
+```text
 adc-dac-visualizer/
 ├── app/
 │   ├── app.py
@@ -50,3 +70,10 @@ adc-dac-visualizer/
 ├── requirements.txt
 ├── .gitignore
 ├── README.md
+```
+
+---
+
+## 📃 License
+
+MIT License. Feel free to fork and modify.
