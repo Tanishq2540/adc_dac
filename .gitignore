@@ -1,0 +1,67 @@
+# === Python cache ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+# === Virtual environments ===
+venv/
+ENV/
+env/
+.venv/
+.Python
+
+# === Streamlit cache ===
+.streamlit/
+.streamlit/config.toml
+
+# === Jupyter Notebook checkpoints (if added) ===
+.ipynb_checkpoints
+
+# === Logs and temporary files ===
+*.log
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+
+# === CSV, data export ===
+*.csv
+
+# === VSCode ===
+.vscode/
+*.code-workspace
+
+# === MacOS ===
+.DS_Store
+
+# === Windows ===
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# === IDEs and editors ===
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# === Testing coverage ===
+htmlcov/
+.tox/
+.nox/
+.coverage
+.cache
+coverage.xml
+*.cover
+*.py,cover
+
+# === Build files ===
+dist/
+build/
+*.egg-info/
+.eggs/
+*.manifest
+*.spec
+
+# === Docker (if added later) ===
+docker-compose.override.yml
+*.env
